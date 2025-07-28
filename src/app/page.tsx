@@ -1,5 +1,6 @@
-export default function Home() {
+import prisma from "@/lib/prisma"
+export default async function Home () {
   return (
-    <div className="font-bold text-red-500">HELL0</div>
+    <div>HI</div>
   )
 }
